@@ -65,7 +65,7 @@ USER $UNAME
 ENV USER=$UNAME
 ENV HOME=/home/$UNAME
 
-WORKDIR /workspace/prga_physical
+WORKDIR /workspace/docker-prga-physical/prga_physical
 # RUN make build
 # RUN make build_test
 # RUN make clean
